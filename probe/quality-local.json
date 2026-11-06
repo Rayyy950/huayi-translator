@@ -1,0 +1,246 @@
+{
+  "at": "2026-11-05T16:41:34.961Z",
+  "chrome": "Chrome/156.0.8078.80",
+  "rows": [
+    {
+      "sourceLanguage": "en",
+      "text": "serendipity",
+      "translated": "偶然性",
+      "ms": 11
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The bank approved the loan after reviewing the documents.",
+      "translated": "银行在审核文件后批准了贷款。",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "A bank of clouds gathered over the river bank before the storm.",
+      "translated": "暴风雨来临前，一堆云层聚集在河岸上。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "She did not agree that the report was complete.",
+      "translated": "她不同意该报告是完整的。",
+      "ms": 3
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The device measures 12.5 centimeters and weighs 380 grams.",
+      "translated": "该设备尺寸为 12.5 厘米，重量为 380 克。",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "No later than 5 p.m. on March 3, 2027, submit the signed contract.",
+      "translated": "不迟于下午 5 点。 2027 年 3 月 3 日，提交签署的合同。",
+      "ms": 9
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The API returns a 429 status code when the request rate limit is exceeded.",
+      "translated": "超出请求速率限制时，API 返回 429 状态代码。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "Although the prototype worked in the lab, it failed under heavy load in production.",
+      "translated": "尽管原型在实验室中工作，但它在生产中的重负荷下失败了。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The committee, which had met three times without reaching a decision, postponed the vote again.",
+      "translated": "该委员会在未达成决定的情况下进行了 3 次会面，再次推迟了投票。",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The patient recovered quickly; however, the follow-up scan showed a small abnormality.",
+      "translated": "病人很快康复； 然而，随访扫描显示出很小的异常。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The museum’s new wing houses paintings by Monet, Renoir, and Degas.",
+      "translated": "博物馆的新翼楼有莫奈、雷诺阿和德加的画作。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "Please confirm whether the shipment has left the warehouse.",
+      "translated": "请确认货物是否已离开仓库。",
+      "ms": 3
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "All employees must complete the safety training before entering the construction site.",
+      "translated": "所有员工必须在进入施工现场前完成安全培训。",
+      "ms": 4
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "He said that he would call back after the meeting, but he never did.",
+      "translated": "他说他会在会议结束后回电，但他从来没有这样做过。",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The temperature dropped to −7°C overnight, and the roads became icy.",
+      "translated": "一夜之间，温度降至-7°C，道路变得冰冷。",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "Bitcoin fell 8% on Tuesday, while gold rose slightly.",
+      "translated": "比特币周二下跌 8%，而黄金小幅上涨。",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The novel’s protagonist struggles with grief, memory, and the passage of time.",
+      "translated": "小说的主角与悲伤、记忆和时间的流逝作斗争。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "This feature is disabled by default; enable it in Settings → Privacy.",
+      "translated": "默认情况下禁用此功能； 在“设置”→“隐私”中启用它。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "The study found no significant difference between the two treatments.",
+      "translated": "研究发现两种治疗方法之间没有显着差异。",
+      "ms": 3
+    },
+    {
+      "sourceLanguage": "en",
+      "text": "Despite the rain, thousands of people attended the outdoor concert.",
+      "translated": "尽管下着雨，成千上万的人参加了户外音乐会。",
+      "ms": 4
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "木漏れ日",
+      "translated": "阳光透过树木",
+      "ms": 21
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "昨日は駅前の喫茶店で友達と会いました。",
+      "translated": "昨天，我在车站前的一家咖啡店认识了一位朋友。",
+      "ms": 11
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "彼は忙しいと言っていたが、実際にはそれほど忙しくなかった。",
+      "translated": "他说他很忙，但他实际上并没有那么忙。",
+      "ms": 9
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "この機械は幅30センチ、重さは約2キロです。",
+      "translated": "这台机器宽30厘米，重约2公斤。",
+      "ms": 11
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "会議は来週の火曜日の午後3時から行われる予定です。",
+      "translated": "会议定于下周二下午 3 点举行。",
+      "ms": 10
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "窓を閉めてもいいですか。",
+      "translated": "我可以关上窗户吗?",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "雨が降ったので、試合は中止になった。",
+      "translated": "由于下雨，比赛被取消了。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "彼女は日本語だけでなく、英語と中国語も話せる。",
+      "translated": "她不仅会说日语，还会说英语和中文。",
+      "ms": 8
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "この薬は食後に服用してください。眠くなる場合があります。",
+      "translated": "饭后服用此药。 你可能会感到困倦。",
+      "ms": 8
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "レポートはまだ提出していません。",
+      "translated": "该报告尚未提交。",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "東京と大阪を結ぶ新幹線は、1時間に最大12本運行されている。",
+      "translated": "连接东京和大阪的子弹头列车每小时最多运行 12 列子弹头列车。",
+      "ms": 13
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "人生には、どうしても避けられない別れがある。",
+      "translated": "生活中有一个不可避免的告别。",
+      "ms": 8
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "駅までの道を教えていただけませんか。",
+      "translated": "你能告诉我去车站的路吗？",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "値段は少し高いですが、品質はとても良いです。",
+      "translated": "价格有点高，但质量非常好。",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "その話は本当なのか、私にはよく分からない。",
+      "translated": "我不确定这个故事是否属实。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "会議の資料を先に送っておきます。",
+      "translated": "首先发送会议材料。",
+      "ms": 5
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "彼が来るかどうかはまだ分からない。",
+      "translated": "我还是不知道他会不会来。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "子供たちは公園で元気に遊んでいる。",
+      "translated": "孩子们在公园里玩得很好。",
+      "ms": 6
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "ご不明な点がございましたら、お気軽にお問い合わせください。",
+      "translated": "如果您有任何问题，请随时与我们联系。",
+      "ms": 7
+    },
+    {
+      "sourceLanguage": "ja",
+      "text": "台風の影響で、明日の便は欠航となる見込みです。",
+      "translated": "由于台风，明天航班将被取消。",
+      "ms": 8
+    }
+  ]
+}

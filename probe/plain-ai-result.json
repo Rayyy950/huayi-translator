@@ -1,0 +1,264 @@
+{
+  "startedAt": "2026-11-05T16:37:40.343Z",
+  "facts": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "secureContext": true,
+    "hasTranslator": true,
+    "hasLanguageDetector": true,
+    "translatorType": "function",
+    "storageQuota": "present",
+    "availability_en_zh": "downloadable",
+    "availability_ja_zh": "downloadable",
+    "availability_en_zh-Hans": "downloadable",
+    "availability_ja_zh-Hans": "downloadable",
+    "detectorAvailability": "downloadable"
+  },
+  "translations": [],
+  "detector": null,
+  "errors": [],
+  "chromeVersion": "Chrome/156.0.8078.80",
+  "ai": {
+    "events": [
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.0181884765625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.0286712646484375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.09808349609375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.125885009765625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.1393280029296875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.1951446533203125
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.268463134765625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.272064208984375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.2936248779296875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.3280792236328125
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.3460845947265625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.3797454833984375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.428955078125
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.4335174560546875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.50750732421875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.5546722412109375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.600067138671875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.6007232666015625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.60418701171875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.6880950927734375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7083587646484375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.721099853515625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7297821044921875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7318115234375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.732177734375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7606048583984375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7957763671875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.7965087890625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.8402099609375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.8412933349609375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.857574462890625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.919952392578125
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.9208221435546875
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.9310302734375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.94976806640625
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.950714111328125
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 0.9516448974609375
+      },
+      {
+        "type": "download",
+        "pair": "en-zh",
+        "loaded": 1
+      },
+      {
+        "type": "created",
+        "pair": "en-zh",
+        "ms": 8516
+      },
+      {
+        "type": "translated",
+        "pair": "en-zh",
+        "input": "Where is the nearest train station, please?",
+        "output": "请问最近的火车站在哪里？",
+        "ms": 22
+      },
+      {
+        "type": "error",
+        "pair": "ja-zh",
+        "error": "NotAllowedError: Requires a user gesture when availability is \"downloading\" or \"downloadable\"."
+      }
+    ],
+    "done": true,
+    "detector": {
+      "ja": [
+        {
+          "confidence": 0.9984273910522461,
+          "detectedLanguage": "ja"
+        },
+        {
+          "confidence": 0.000001886913651105715,
+          "detectedLanguage": "und"
+        }
+      ],
+      "en": [
+        {
+          "confidence": 0.9980675578117371,
+          "detectedLanguage": "en"
+        },
+        {
+          "confidence": 0.000007320713848457672,
+          "detectedLanguage": "und"
+        }
+      ]
+    }
+  },
+  "activation": {
+    "isActive": false,
+    "hasBeenActive": true
+  },
+  "finishedAt": "2026-11-05T16:37:54.364Z"
+}

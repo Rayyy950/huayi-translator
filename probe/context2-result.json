@@ -1,0 +1,144 @@
+{
+  "startedAt": "2026-11-05T16:42:14.325Z",
+  "sessions": [
+    {
+      "label": "cold-after-extension-reload",
+      "contexts": {
+        "https": {
+          "label": "https-example",
+          "href": "https://example.com/",
+          "protocol": "https:",
+          "secureContext": true,
+          "hasTranslator": true,
+          "availability_en_zh": "available"
+        },
+        "http": {
+          "label": "http-neverssl",
+          "error": "Error: ReferenceError: Translator is not defined\n    at <anonymous>:4:35\n    at <anonymous>:5:10"
+        }
+      },
+      "sw": {
+        "availability_en_zh": "available",
+        "createMs": 67,
+        "translate": "今天天气很好。",
+        "firstTranslateMs": 14,
+        "translate2": "请关上门。",
+        "secondTranslateMs": 2
+      },
+      "notes": [
+        "cleared extension storage"
+      ],
+      "chromeVersion": "Chrome/156.0.8078.80",
+      "extId": "dkhhoecmkkdmjaihfaljpbganpmkelig",
+      "contentLogs": [
+        {
+          "at": "2026-11-05T16:42:18.455Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "availability_ja_zh",
+          "tabId": 666592305,
+          "value": "downloadable"
+        },
+        {
+          "at": "2026-11-05T16:42:20.603Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "click_target",
+          "tabId": 666592305,
+          "value": "HTML"
+        },
+        {
+          "at": "2026-11-05T16:42:20.685Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "create_ok_ms",
+          "tabId": 666592305,
+          "value": 83
+        },
+        {
+          "at": "2026-11-05T16:42:20.700Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "translate_ok",
+          "tabId": 666592305,
+          "value": "最近的车站在哪里?"
+        }
+      ],
+      "offscreenLogs": [],
+      "offlineSw": {
+        "createMs": 70,
+        "translate": "我可以离线翻译吗？"
+      }
+    },
+    {
+      "label": "second-restart",
+      "contexts": {
+        "https": {
+          "label": "https-example",
+          "href": "https://example.com/",
+          "protocol": "https:",
+          "secureContext": true,
+          "hasTranslator": true,
+          "availability_en_zh": "available"
+        },
+        "http": {
+          "label": "http-neverssl",
+          "error": "Error: ReferenceError: Translator is not defined\n    at <anonymous>:4:35\n    at <anonymous>:5:10"
+        }
+      },
+      "sw": {
+        "availability_en_zh": "available",
+        "createMs": 68,
+        "translate": "今天天气很好。",
+        "firstTranslateMs": 14,
+        "translate2": "请关上门。",
+        "secondTranslateMs": 2
+      },
+      "notes": [
+        "cleared extension storage"
+      ],
+      "chromeVersion": "Chrome/156.0.8078.80",
+      "extId": "dkhhoecmkkdmjaihfaljpbganpmkelig",
+      "contentLogs": [
+        {
+          "at": "2026-11-05T16:42:36.732Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "availability_ja_zh",
+          "tabId": 666592379,
+          "value": "downloadable"
+        },
+        {
+          "at": "2026-11-05T16:42:39.029Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "click_target",
+          "tabId": 666592379,
+          "value": "HTML"
+        },
+        {
+          "at": "2026-11-05T16:42:39.123Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "create_ok_ms",
+          "tabId": 666592379,
+          "value": 93
+        },
+        {
+          "at": "2026-11-05T16:42:39.138Z",
+          "context": "content",
+          "frameId": 0,
+          "name": "translate_ok",
+          "tabId": 666592379,
+          "value": "最近的车站在哪里?"
+        }
+      ],
+      "offscreenLogs": [],
+      "offlineSw": {
+        "createMs": 73,
+        "translate": "我可以离线翻译吗？"
+      }
+    }
+  ],
+  "finishedAt": "2026-11-05T16:42:51.178Z"
+}

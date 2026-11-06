@@ -1,0 +1,50 @@
+{
+  "name": "huayi",
+  "displayName": "划译",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome selection translator: select text, get a floating translation.",
+  "scripts": {
+    "dev": "node scripts/build.mjs --watch",
+    "build": "node scripts/build.mjs",
+    "build:test": "node scripts/build.mjs --fake",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "npm run build:test && playwright test",
+    "icons": "node scripts/gen-icons.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.1",
+    "@types/chrome": "0.3.7",
+    "@types/node": "^22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "eslint": "10.14.0",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.6",
+    "vitest": "5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rayyy950/huayi-translator.git"
+  },
+  "homepage": "https://github.com/Rayyy950/huayi-translator",
+  "bugs": {
+    "url": "https://github.com/Rayyy950/huayi-translator/issues"
+  }
+}

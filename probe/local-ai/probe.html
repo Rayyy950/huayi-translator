@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Local AI Probe</title>
+    <style>
+      body {
+        font:
+          13px/1.5 ui-monospace,
+          monospace;
+        padding: 16px;
+      }
+      button {
+        font: inherit;
+        padding: 6px 12px;
+        margin-right: 8px;
+      }
+      pre {
+        white-space: pre-wrap;
+        background: #f4f4f4;
+        padding: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chrome built-in AI feasibility probe</h1>
+    <p>
+      Phase A only. One button click per language pair: model creation needs a fresh user gesture.
+    </p>
+    <p>
+      <button id="btn-en">Prepare en→zh</button>
+      <button id="btn-ja">Prepare ja→zh</button>
+      <button id="btn-nogesture">create without gesture</button>
+      <button id="btn-offscreen">Probe offscreen document</button>
+      <button id="btn-refresh">Refresh aggregated log</button>
+    </p>
+    <pre id="out">loading…</pre>
+    <script src="probe.js"></script>
+  </body>
+</html>

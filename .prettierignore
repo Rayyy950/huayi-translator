@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-test/
+release/
+package-lock.json
+playwright-report/
+test-results/
+probe/*.json
+public/icons/

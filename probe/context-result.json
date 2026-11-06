@@ -1,0 +1,190 @@
+{
+  "startedAt": "2026-11-05T16:41:09.513Z",
+  "sections": {
+    "sw": {
+      "hasTranslator": true,
+      "hasDocument": false,
+      "availability": "available",
+      "createMs": 74,
+      "translated": "服务工作者可以翻译这句话。",
+      "translateMs": 22,
+      "detector": [
+        {
+          "confidence": 0.999371349811554,
+          "detectedLanguage": "ja"
+        },
+        {
+          "confidence": 0.00000209325116884429,
+          "detectedLanguage": "und"
+        }
+      ]
+    },
+    "contentLogs": [
+      {
+        "at": "2026-11-05T16:39:46.051Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "userActivation_on_load",
+        "tabId": 666592109,
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:46.054Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "availability_ja_zh",
+        "tabId": 666592109,
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:46.068Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "click_target",
+        "tabId": 666592109,
+        "value": "P"
+      },
+      {
+        "at": "2026-11-05T16:39:46.154Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "create_ok_ms",
+        "tabId": 666592109,
+        "value": 85
+      },
+      {
+        "at": "2026-11-05T16:39:46.170Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "translate_ok",
+        "tabId": 666592109,
+        "value": "最近的车站在哪里?"
+      },
+      {
+        "at": "2026-11-05T16:41:12.307Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "availability_ja_zh",
+        "tabId": 666592170,
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:41:13.994Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "click_target",
+        "tabId": 666592170,
+        "value": "HTML"
+      },
+      {
+        "at": "2026-11-05T16:41:14.071Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "create_ok_ms",
+        "tabId": 666592170,
+        "value": 78
+      },
+      {
+        "at": "2026-11-05T16:41:14.088Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "translate_ok",
+        "tabId": 666592170,
+        "value": "最近的车站在哪里?"
+      }
+    ],
+    "offscreenLogs": [
+      {
+        "at": "2026-11-05T16:41:25.618Z",
+        "context": "offscreen",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:41:25.618Z",
+        "context": "offscreen",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:41:25.619Z",
+        "context": "offscreen",
+        "name": "secureContext",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:41:25.619Z",
+        "context": "offscreen",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:41:25.619Z",
+        "context": "offscreen",
+        "name": "userActivation",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:41:25.619Z",
+        "context": "offscreen",
+        "name": "document",
+        "value": "created"
+      },
+      {
+        "at": "2026-11-05T16:41:25.620Z",
+        "context": "offscreen",
+        "name": "availability_en_zh",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:41:25.685Z",
+        "context": "offscreen",
+        "name": "create_ms",
+        "value": 65
+      },
+      {
+        "at": "2026-11-05T16:41:25.701Z",
+        "context": "offscreen",
+        "name": "translate_ok",
+        "value": "你好，来自屏幕外的文档。"
+      },
+      {
+        "at": "2026-11-05T16:41:25.702Z",
+        "context": "offscreen",
+        "name": "detect",
+        "value": [
+          {
+            "confidence": 0.9997218251228333,
+            "detectedLanguage": "en"
+          },
+          {
+            "confidence": 0.000002858687821571948,
+            "detectedLanguage": "und"
+          }
+        ]
+      }
+    ],
+    "corpus": {
+      "file": "<repo>/probe/quality-local.json",
+      "rows": 40
+    },
+    "restartSw": {
+      "error": "service worker target not found after restart",
+      "targets": [
+        "chrome://omnibox-popup.top-chrome/",
+        "chrome://omnibox-popup.top-chrome/omnibox_popup_aim.html",
+        "about:blank"
+      ]
+    },
+    "restartContent": {
+      "secureContext": true,
+      "hasTranslator": true,
+      "availability": "downloadable",
+      "hasContentMarker": false
+    }
+  },
+  "errors": [],
+  "chromeVersion": "Chrome/156.0.8078.80",
+  "extId": "dkhhoecmkkdmjaihfaljpbganpmkelig",
+  "finishedAt": "2026-11-05T16:41:43.365Z"
+}

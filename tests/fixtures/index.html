@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>划译测试页面</title>
+    <style>
+      body {
+        font:
+          16px/1.7 -apple-system,
+          BlinkMacSystemFont,
+          'PingFang SC',
+          sans-serif;
+        margin: 32px auto;
+        max-width: 760px;
+        padding: 0 20px;
+      }
+      textarea,
+      [contenteditable] {
+        display: block;
+        width: 100%;
+        min-height: 60px;
+        margin: 12px 0;
+      }
+      .spacer {
+        height: 1200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>划译测试页面</h1>
+
+    <p id="para-en">
+      The quick brown fox jumps over the lazy dog. This sentence is used for selection testing.
+    </p>
+
+    <p id="para-ja" lang="ja">明日の会議は午後三時からです。資料を準備してください。</p>
+
+    <div id="multi">
+      <p>First paragraph of a two-paragraph selection.</p>
+      <p>Second paragraph, with numbers 42 and units 10 kg.</p>
+    </div>
+
+    <p id="html-text">&lt;img src=x onerror="window.__xss=1"&gt; is shown as text.</p>
+
+    <textarea id="ta">Editable textarea content</textarea>
+    <div id="editable" contenteditable="true">Editable content must not trigger translation.</div>
+    <input id="pw" type="password" value="secret" autocomplete="off" />
+
+    <div class="spacer"></div>
+    <p id="bottom">Selection near the bottom of a long page for viewport clamping.</p>
+
+    <script>
+      window.__huayiFixture = true;
+      document.getElementById('dynamic')?.remove();
+      const dynamic = document.createElement('p');
+      dynamic.id = 'dynamic';
+      dynamic.textContent = 'Dynamically inserted paragraph for selection testing.';
+      document.body.insertBefore(dynamic, document.getElementById('html-text'));
+    </script>
+  </body>
+</html>

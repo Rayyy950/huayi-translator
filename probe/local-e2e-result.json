@@ -1,0 +1,92 @@
+{
+  "checks": {
+    "prepare ja": {
+      "ok": true,
+      "detail": "available"
+    },
+    "prepare en": {
+      "ok": true,
+      "detail": "available"
+    },
+    "prepare detector": {
+      "ok": true,
+      "detail": "available"
+    },
+    "local ja→zh": {
+      "ok": true,
+      "detail": "这是日本的段落。 这用于测试翻译。"
+    },
+    "local engine label": {
+      "ok": true,
+      "detail": "本地 · Chrome 内置翻译"
+    },
+    "cache hit badge": {
+      "ok": true,
+      "detail": "{\"translation\":\"这是日本的段落。 这用于测试翻译。\",\"engine\":\"本地 · Chrome 内置翻译\",\"direction\":\"日语 → 简体中文\",\"error\":\"\",\"cache\":true,\"display\":\"block\"}"
+    },
+    "local en→zh": {
+      "ok": true,
+      "detail": "选择此英文句子，或单击此处为探测授予用户激活。"
+    },
+    "auto detection direction": {
+      "ok": true,
+      "detail": "英语 → 简体中文"
+    },
+    "local auto translates": {
+      "ok": true,
+      "detail": "选择此英文句子，或单击此处为探测授予用户激活。"
+    },
+    "unpinned closes on scroll": {
+      "ok": true,
+      "detail": "none"
+    },
+    "local works on insecure HTTP page": {
+      "ok": true,
+      "detail": "{\"translation\":\"选择此英文句子，或单击此处为探测授予用户激活。\",\"engine\":\"本地 · Chrome 内置翻译\",\"error\":\"\"}"
+    }
+  },
+  "notes": [
+    "ja before: [{\"source\":\"en\",\"target\":\"zh-Hans\",\"state\":\"downloadable\"},{\"source\":\"ja\",\"target\":\"zh-Hans\",\"state\":\"downloadable\"}]",
+    "en before: [{\"source\":\"en\",\"target\":\"zh-Hans\",\"state\":\"available\"},{\"source\":\"ja\",\"target\":\"zh-Hans\",\"state\":\"available\"}]",
+    "语言检测 before: [{\"source\":\"en\",\"target\":\"zh-Hans\",\"state\":\"available\"},{\"source\":\"ja\",\"target\":\"zh-Hans\",\"state\":\"available\"}]",
+    {
+      "ja": {
+        "translation": "这是日本的段落。 这用于测试翻译。",
+        "engine": "本地 · Chrome 内置翻译",
+        "direction": "日语 → 简体中文",
+        "error": "",
+        "cache": false,
+        "display": "block"
+      }
+    },
+    {
+      "en": {
+        "translation": "选择此英文句子，或单击此处为探测授予用户激活。",
+        "engine": "本地 · Chrome 内置翻译",
+        "direction": "英语 → 简体中文",
+        "error": "",
+        "cache": false,
+        "display": "block"
+      }
+    },
+    {
+      "auto": {
+        "translation": "选择此英文句子，或单击此处为探测授予用户激活。",
+        "engine": "本地 · Chrome 内置翻译",
+        "direction": "英语 → 简体中文",
+        "error": "",
+        "cache": false,
+        "display": "block"
+      }
+    },
+    {
+      "http": {
+        "translation": "选择此英文句子，或单击此处为探测授予用户激活。",
+        "engine": "本地 · Chrome 内置翻译",
+        "error": ""
+      }
+    }
+  ],
+  "errors": [],
+  "extId": "gkfohakgjildaaenoneibmcgemfadeco"
+}

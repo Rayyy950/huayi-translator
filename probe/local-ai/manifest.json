@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Local AI Feasibility Probe",
+  "version": "0.2.0",
+  "description": "Phase A probe only. Not part of the shipped extension.",
+  "permissions": ["offscreen", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "sw.js" },
+  "options_page": "probe.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

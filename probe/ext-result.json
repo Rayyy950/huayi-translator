@@ -1,0 +1,1340 @@
+{
+  "startedAt": "2026-11-05T16:39:03.333Z",
+  "steps": [
+    "extension loaded via CDP",
+    "opened probe page",
+    "initial availability in extension page",
+    "clicked en→zh prepare",
+    "clicked ja→zh prepare",
+    "tested create without user activation",
+    "clicked offscreen probe",
+    "clicked fixture page for content-script probe",
+    "read aggregated logs"
+  ],
+  "error": null,
+  "chromeVersion": "Chrome/156.0.8078.80",
+  "extId": "dkhhoecmkkdmjaihfaljpbganpmkelig",
+  "probeTarget": "047FED3B8A0F0CD89C250437E34936CF",
+  "extensionInitial": {
+    "own": [
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "secureContext",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.944Z",
+        "context": "options",
+        "name": "translatorType",
+        "value": "function"
+      },
+      {
+        "at": "2026-11-05T16:39:03.944Z",
+        "context": "options",
+        "name": "userActivation_active_on_load",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.946Z",
+        "context": "options",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.957Z",
+        "context": "options",
+        "name": "availability_ja_zh",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.957Z",
+        "context": "options",
+        "name": "availability_en_zh-Hans",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.970Z",
+        "context": "options",
+        "name": "availability_ja_zh-Hans",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.973Z",
+        "context": "options",
+        "name": "detector_availability_noargs",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.973Z",
+        "context": "options",
+        "name": "detector_availability_en_ja",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.974Z",
+        "context": "options",
+        "name": "detector_create_error",
+        "value": "NotAllowedError: Requires a user gesture when availability is \"downloading\" or \"downloadable\"."
+      }
+    ],
+    "sw": [
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasDOM",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.927Z",
+        "context": "sw",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.934Z",
+        "context": "sw",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      }
+    ],
+    "offscreen": [],
+    "content": []
+  },
+  "extensionAfterPairs": {
+    "own": [
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "secureContext",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.943Z",
+        "context": "options",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.944Z",
+        "context": "options",
+        "name": "translatorType",
+        "value": "function"
+      },
+      {
+        "at": "2026-11-05T16:39:03.944Z",
+        "context": "options",
+        "name": "userActivation_active_on_load",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.946Z",
+        "context": "options",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.957Z",
+        "context": "options",
+        "name": "availability_ja_zh",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.957Z",
+        "context": "options",
+        "name": "availability_en_zh-Hans",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.970Z",
+        "context": "options",
+        "name": "availability_ja_zh-Hans",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.973Z",
+        "context": "options",
+        "name": "detector_availability_noargs",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.973Z",
+        "context": "options",
+        "name": "detector_availability_en_ja",
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:03.974Z",
+        "context": "options",
+        "name": "detector_create_error",
+        "value": "NotAllowedError: Requires a user gesture when availability is \"downloading\" or \"downloadable\"."
+      },
+      {
+        "at": "2026-11-05T16:39:06.942Z",
+        "context": "options",
+        "name": "click_en_userActivation",
+        "value": {
+          "isActive": true,
+          "hasBeenActive": true
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:08.681Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0
+      },
+      {
+        "at": "2026-11-05T16:39:08.735Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.000946044921875
+      },
+      {
+        "at": "2026-11-05T16:39:08.839Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.0488128662109375
+      },
+      {
+        "at": "2026-11-05T16:39:08.903Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.0533447265625
+      },
+      {
+        "at": "2026-11-05T16:39:09.007Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.0801239013671875
+      },
+      {
+        "at": "2026-11-05T16:39:09.099Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.1441650390625
+      },
+      {
+        "at": "2026-11-05T16:39:09.156Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.2213287353515625
+      },
+      {
+        "at": "2026-11-05T16:39:09.206Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.278533935546875
+      },
+      {
+        "at": "2026-11-05T16:39:09.279Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.29718017578125
+      },
+      {
+        "at": "2026-11-05T16:39:09.330Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.3763427734375
+      },
+      {
+        "at": "2026-11-05T16:39:09.380Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.4409027099609375
+      },
+      {
+        "at": "2026-11-05T16:39:09.480Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.4959564208984375
+      },
+      {
+        "at": "2026-11-05T16:39:09.532Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.4980010986328125
+      },
+      {
+        "at": "2026-11-05T16:39:09.619Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.511932373046875
+      },
+      {
+        "at": "2026-11-05T16:39:09.696Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.519317626953125
+      },
+      {
+        "at": "2026-11-05T16:39:09.753Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.52264404296875
+      },
+      {
+        "at": "2026-11-05T16:39:09.809Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.5531463623046875
+      },
+      {
+        "at": "2026-11-05T16:39:09.867Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.5848541259765625
+      },
+      {
+        "at": "2026-11-05T16:39:09.923Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.60076904296875
+      },
+      {
+        "at": "2026-11-05T16:39:09.973Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.6202392578125
+      },
+      {
+        "at": "2026-11-05T16:39:10.024Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.6487884521484375
+      },
+      {
+        "at": "2026-11-05T16:39:10.074Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.661224365234375
+      },
+      {
+        "at": "2026-11-05T16:39:10.137Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.6636199951171875
+      },
+      {
+        "at": "2026-11-05T16:39:10.198Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.6786041259765625
+      },
+      {
+        "at": "2026-11-05T16:39:10.249Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.70318603515625
+      },
+      {
+        "at": "2026-11-05T16:39:10.337Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7117156982421875
+      },
+      {
+        "at": "2026-11-05T16:39:10.399Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7134552001953125
+      },
+      {
+        "at": "2026-11-05T16:39:10.502Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7501068115234375
+      },
+      {
+        "at": "2026-11-05T16:39:10.553Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7772216796875
+      },
+      {
+        "at": "2026-11-05T16:39:10.620Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7798309326171875
+      },
+      {
+        "at": "2026-11-05T16:39:10.688Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.7835235595703125
+      },
+      {
+        "at": "2026-11-05T16:39:10.738Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.8217620849609375
+      },
+      {
+        "at": "2026-11-05T16:39:10.874Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.828704833984375
+      },
+      {
+        "at": "2026-11-05T16:39:10.956Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.8492431640625
+      },
+      {
+        "at": "2026-11-05T16:39:11.007Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.8876953125
+      },
+      {
+        "at": "2026-11-05T16:39:11.091Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.895294189453125
+      },
+      {
+        "at": "2026-11-05T16:39:11.142Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.9073638916015625
+      },
+      {
+        "at": "2026-11-05T16:39:11.195Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.9200897216796875
+      },
+      {
+        "at": "2026-11-05T16:39:11.249Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.932891845703125
+      },
+      {
+        "at": "2026-11-05T16:39:11.308Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.948089599609375
+      },
+      {
+        "at": "2026-11-05T16:39:11.359Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.9608612060546875
+      },
+      {
+        "at": "2026-11-05T16:39:11.410Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.97186279296875
+      },
+      {
+        "at": "2026-11-05T16:39:11.461Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 0.9988250732421875
+      },
+      {
+        "at": "2026-11-05T16:39:11.465Z",
+        "context": "options",
+        "name": "download_en_zh",
+        "value": 1
+      },
+      {
+        "at": "2026-11-05T16:39:12.432Z",
+        "context": "options",
+        "name": "create_en_zh_ms",
+        "value": 5490
+      },
+      {
+        "at": "2026-11-05T16:39:12.449Z",
+        "context": "options",
+        "name": "translate_en_zh",
+        "value": {
+          "input": "Hello world.",
+          "output": "你好世界。",
+          "ms": 17
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:12.455Z",
+        "context": "options",
+        "name": "translate_en_zh",
+        "value": {
+          "input": "Where is the nearest train station?",
+          "output": "哪里是最近的火车站?",
+          "ms": 5
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:14.453Z",
+        "context": "options",
+        "name": "click_ja_userActivation",
+        "value": {
+          "isActive": true,
+          "hasBeenActive": true
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:14.823Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0
+      },
+      {
+        "at": "2026-11-05T16:39:14.880Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.001495361328125
+      },
+      {
+        "at": "2026-11-05T16:39:14.930Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.0269622802734375
+      },
+      {
+        "at": "2026-11-05T16:39:15.033Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.039154052734375
+      },
+      {
+        "at": "2026-11-05T16:39:15.084Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.06524658203125
+      },
+      {
+        "at": "2026-11-05T16:39:15.136Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.0780181884765625
+      },
+      {
+        "at": "2026-11-05T16:39:15.198Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.08026123046875
+      },
+      {
+        "at": "2026-11-05T16:39:15.271Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.0848388671875
+      },
+      {
+        "at": "2026-11-05T16:39:15.324Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.1241302490234375
+      },
+      {
+        "at": "2026-11-05T16:39:15.406Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.130950927734375
+      },
+      {
+        "at": "2026-11-05T16:39:15.460Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.1439361572265625
+      },
+      {
+        "at": "2026-11-05T16:39:15.511Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.1566162109375
+      },
+      {
+        "at": "2026-11-05T16:39:15.562Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.181854248046875
+      },
+      {
+        "at": "2026-11-05T16:39:15.614Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.195220947265625
+      },
+      {
+        "at": "2026-11-05T16:39:15.685Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.1993560791015625
+      },
+      {
+        "at": "2026-11-05T16:39:15.737Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.2265472412109375
+      },
+      {
+        "at": "2026-11-05T16:39:15.789Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.2393035888671875
+      },
+      {
+        "at": "2026-11-05T16:39:15.853Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.2427825927734375
+      },
+      {
+        "at": "2026-11-05T16:39:15.958Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.2561187744140625
+      },
+      {
+        "at": "2026-11-05T16:39:16.028Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.292236328125
+      },
+      {
+        "at": "2026-11-05T16:39:16.081Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.306365966796875
+      },
+      {
+        "at": "2026-11-05T16:39:16.132Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.3402252197265625
+      },
+      {
+        "at": "2026-11-05T16:39:16.226Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.354156494140625
+      },
+      {
+        "at": "2026-11-05T16:39:16.288Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.357421875
+      },
+      {
+        "at": "2026-11-05T16:39:16.353Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.385833740234375
+      },
+      {
+        "at": "2026-11-05T16:39:16.416Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.420501708984375
+      },
+      {
+        "at": "2026-11-05T16:39:16.467Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.459136962890625
+      },
+      {
+        "at": "2026-11-05T16:39:16.564Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.4724273681640625
+      },
+      {
+        "at": "2026-11-05T16:39:16.617Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.5201568603515625
+      },
+      {
+        "at": "2026-11-05T16:39:16.769Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.54241943359375
+      },
+      {
+        "at": "2026-11-05T16:39:16.828Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.566497802734375
+      },
+      {
+        "at": "2026-11-05T16:39:16.878Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.6039886474609375
+      },
+      {
+        "at": "2026-11-05T16:39:16.930Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.6546783447265625
+      },
+      {
+        "at": "2026-11-05T16:39:17.008Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.6641693115234375
+      },
+      {
+        "at": "2026-11-05T16:39:17.073Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.673614501953125
+      },
+      {
+        "at": "2026-11-05T16:39:17.231Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.6989288330078125
+      },
+      {
+        "at": "2026-11-05T16:39:17.286Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.7052764892578125
+      },
+      {
+        "at": "2026-11-05T16:39:17.377Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.7185211181640625
+      },
+      {
+        "at": "2026-11-05T16:39:17.438Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.7215423583984375
+      },
+      {
+        "at": "2026-11-05T16:39:17.500Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.7606353759765625
+      },
+      {
+        "at": "2026-11-05T16:39:17.550Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.78564453125
+      },
+      {
+        "at": "2026-11-05T16:39:17.651Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.812835693359375
+      },
+      {
+        "at": "2026-11-05T16:39:17.703Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.8272552490234375
+      },
+      {
+        "at": "2026-11-05T16:39:17.754Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.8478546142578125
+      },
+      {
+        "at": "2026-11-05T16:39:17.806Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.85858154296875
+      },
+      {
+        "at": "2026-11-05T16:39:17.871Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.861480712890625
+      },
+      {
+        "at": "2026-11-05T16:39:17.921Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.8719329833984375
+      },
+      {
+        "at": "2026-11-05T16:39:17.972Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.8916473388671875
+      },
+      {
+        "at": "2026-11-05T16:39:18.059Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.898681640625
+      },
+      {
+        "at": "2026-11-05T16:39:18.112Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.90911865234375
+      },
+      {
+        "at": "2026-11-05T16:39:18.184Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.923858642578125
+      },
+      {
+        "at": "2026-11-05T16:39:18.264Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.9402313232421875
+      },
+      {
+        "at": "2026-11-05T16:39:18.315Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.950225830078125
+      },
+      {
+        "at": "2026-11-05T16:39:18.374Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.9615478515625
+      },
+      {
+        "at": "2026-11-05T16:39:18.437Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.9747467041015625
+      },
+      {
+        "at": "2026-11-05T16:39:18.503Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 0.988311767578125
+      },
+      {
+        "at": "2026-11-05T16:39:18.508Z",
+        "context": "options",
+        "name": "download_ja_zh",
+        "value": 1
+      },
+      {
+        "at": "2026-11-05T16:39:19.052Z",
+        "context": "options",
+        "name": "create_ja_zh_ms",
+        "value": 4599
+      },
+      {
+        "at": "2026-11-05T16:39:19.081Z",
+        "context": "options",
+        "name": "translate_ja_zh",
+        "value": {
+          "input": "こんにちは世界。",
+          "output": "你好世界。",
+          "ms": 28
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:19.090Z",
+        "context": "options",
+        "name": "translate_ja_zh",
+        "value": {
+          "input": "最寄りの駅はどこですか。",
+          "output": "最近的车站在哪里?",
+          "ms": 9
+        }
+      }
+    ],
+    "sw": [
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasDOM",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.927Z",
+        "context": "sw",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.934Z",
+        "context": "sw",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      }
+    ],
+    "offscreen": [],
+    "content": []
+  },
+  "extensionNoGesture": {
+    "own": [
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "secureContext",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "translatorType",
+        "value": "function"
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "userActivation_active_on_load",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:19.492Z",
+        "context": "options",
+        "name": "availability_en_zh",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.492Z",
+        "context": "options",
+        "name": "availability_ja_zh",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "availability_en_zh-Hans",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "availability_ja_zh-Hans",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "detector_availability_noargs",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "detector_availability_en_ja",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.495Z",
+        "context": "options",
+        "name": "detect_ja",
+        "value": [
+          {
+            "confidence": 0.9984273910522461,
+            "detectedLanguage": "ja"
+          },
+          {
+            "confidence": 0.000001886913651105715,
+            "detectedLanguage": "und"
+          }
+        ]
+      },
+      {
+        "at": "2026-11-05T16:39:19.495Z",
+        "context": "options",
+        "name": "detect_en",
+        "value": [
+          {
+            "confidence": 0.9980675578117371,
+            "detectedLanguage": "en"
+          },
+          {
+            "confidence": 0.000007320713848457672,
+            "detectedLanguage": "und"
+          }
+        ]
+      },
+      {
+        "at": "2026-11-05T16:39:27.977Z",
+        "context": "options",
+        "name": "nogesture_userActivation",
+        "value": {
+          "isActive": false,
+          "hasBeenActive": true
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:28.050Z",
+        "context": "options",
+        "name": "nogesture_create_ok_ms",
+        "value": 73
+      },
+      {
+        "at": "2026-11-05T16:39:28.069Z",
+        "context": "options",
+        "name": "nogesture_translate",
+        "value": "没有使用手势。"
+      }
+    ],
+    "sw": [
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasDOM",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.927Z",
+        "context": "sw",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.934Z",
+        "context": "sw",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      }
+    ],
+    "offscreen": [],
+    "content": []
+  },
+  "extensionAfterOffscreen": {
+    "own": [
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "secureContext",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "translatorType",
+        "value": "function"
+      },
+      {
+        "at": "2026-11-05T16:39:19.490Z",
+        "context": "options",
+        "name": "userActivation_active_on_load",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:19.492Z",
+        "context": "options",
+        "name": "availability_en_zh",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.492Z",
+        "context": "options",
+        "name": "availability_ja_zh",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "availability_en_zh-Hans",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "availability_ja_zh-Hans",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "detector_availability_noargs",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.494Z",
+        "context": "options",
+        "name": "detector_availability_en_ja",
+        "value": "available"
+      },
+      {
+        "at": "2026-11-05T16:39:19.495Z",
+        "context": "options",
+        "name": "detect_ja",
+        "value": [
+          {
+            "confidence": 0.9984273910522461,
+            "detectedLanguage": "ja"
+          },
+          {
+            "confidence": 0.000001886913651105715,
+            "detectedLanguage": "und"
+          }
+        ]
+      },
+      {
+        "at": "2026-11-05T16:39:19.495Z",
+        "context": "options",
+        "name": "detect_en",
+        "value": [
+          {
+            "confidence": 0.9980675578117371,
+            "detectedLanguage": "en"
+          },
+          {
+            "confidence": 0.000007320713848457672,
+            "detectedLanguage": "und"
+          }
+        ]
+      },
+      {
+        "at": "2026-11-05T16:39:27.977Z",
+        "context": "options",
+        "name": "nogesture_userActivation",
+        "value": {
+          "isActive": false,
+          "hasBeenActive": true
+        }
+      },
+      {
+        "at": "2026-11-05T16:39:28.050Z",
+        "context": "options",
+        "name": "nogesture_create_ok_ms",
+        "value": 73
+      },
+      {
+        "at": "2026-11-05T16:39:28.069Z",
+        "context": "options",
+        "name": "nogesture_translate",
+        "value": "没有使用手势。"
+      }
+    ],
+    "sw": [
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasDOM",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.927Z",
+        "context": "sw",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.934Z",
+        "context": "sw",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      }
+    ],
+    "offscreen": [
+      {
+        "at": "2026-11-05T16:39:30.989Z",
+        "context": "offscreen",
+        "name": "createError",
+        "value": "Error: The `TESTING` reason is only available with the --offscreen-document-testing commandline switch applied."
+      }
+    ],
+    "content": []
+  },
+  "logs": {
+    "contentLog": [
+      {
+        "at": "2026-11-05T16:39:46.051Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "userActivation_on_load",
+        "tabId": 666592109,
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:46.054Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "availability_ja_zh",
+        "tabId": 666592109,
+        "value": "downloadable"
+      },
+      {
+        "at": "2026-11-05T16:39:46.068Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "click_target",
+        "tabId": 666592109,
+        "value": "P"
+      },
+      {
+        "at": "2026-11-05T16:39:46.154Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "create_ok_ms",
+        "tabId": 666592109,
+        "value": 85
+      },
+      {
+        "at": "2026-11-05T16:39:46.170Z",
+        "context": "content",
+        "frameId": 0,
+        "name": "translate_ok",
+        "tabId": 666592109,
+        "value": "最近的车站在哪里?"
+      }
+    ],
+    "offscreenLog": [
+      {
+        "at": "2026-11-05T16:39:30.989Z",
+        "context": "offscreen",
+        "name": "createError",
+        "value": "Error: The `TESTING` reason is only available with the --offscreen-document-testing commandline switch applied."
+      }
+    ],
+    "swLog": [
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasTranslator",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasLanguageDetector",
+        "value": true
+      },
+      {
+        "at": "2026-11-05T16:39:03.926Z",
+        "context": "sw",
+        "name": "hasDOM",
+        "value": false
+      },
+      {
+        "at": "2026-11-05T16:39:03.927Z",
+        "context": "sw",
+        "name": "userAgent",
+        "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+      },
+      {
+        "at": "2026-11-05T16:39:03.934Z",
+        "context": "sw",
+        "name": "availability_en_zh",
+        "value": "downloadable"
+      }
+    ]
+  },
+  "finishedAt": "2026-11-05T16:40:01.580Z"
+}

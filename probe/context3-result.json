@@ -1,0 +1,48 @@
+{
+  "at": "2026-11-05T16:43:13.300Z",
+  "pages": [
+    {
+      "url": "https://example.com/",
+      "href": null,
+      "contexts": [
+        {
+          "name": "Local AI Feasibility Probe",
+          "origin": "chrome-extension://dkhhoecmkkdmjaihfaljpbganpmkelig",
+          "facts": {
+            "href": "https://example.com/",
+            "protocol": "https:",
+            "secureContext": true,
+            "hasTranslator": true,
+            "hasDetector": true,
+            "availability_en_zh": "available"
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://neverssl.com/",
+      "href": null,
+      "contexts": []
+    },
+    {
+      "url": "http://localhost:8787/index.html",
+      "href": null,
+      "contexts": [
+        {
+          "name": "Local AI Feasibility Probe",
+          "origin": "chrome-extension://dkhhoecmkkdmjaihfaljpbganpmkelig",
+          "facts": {
+            "href": "http://localhost:8787/index.html",
+            "protocol": "http:",
+            "secureContext": true,
+            "hasTranslator": true,
+            "hasDetector": true,
+            "availability_en_zh": "available"
+          }
+        }
+      ]
+    }
+  ],
+  "extId": "dkhhoecmkkdmjaihfaljpbganpmkelig",
+  "chromeVersion": "Chrome/156.0.8078.80"
+}
